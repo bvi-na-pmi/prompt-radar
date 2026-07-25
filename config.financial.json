@@ -1,0 +1,66 @@
+{
+  "fteCostPerMinute": 30,
+  "tokenCostPerMillionInput": 1.5,
+  "tokenCostPerMillionOutput": 7.5,
+  "usdToRubRate": 88,
+  "baseTimeSavedMinutes": 10,
+  "coefficients": {
+    "category": {
+      "Разработка & Кодинг": 1.4,
+      "Тестирование & QA": 1.2,
+      "Отчетность & Аналитика": 1.3,
+      "Документооборот & Договоры": 1.1,
+      "CRM & Продажи": 1.3,
+      "Коммуникации & Почта": 1.0,
+      "HR & Кадры": 0.8,
+      "Инфраструктура & Мониторинг": 1.2,
+      "Поиск & База знаний": 0.7,
+      "Личный запрос (не по работе)": 0.0
+    },
+    "department": {
+      "Разработка & DevOps": 1.3,
+      "Бизнес-Аналитика": 1.2,
+      "Отдел Продаж & CRM": 1.4,
+      "HR & Кадры": 0.8,
+      "Юридический Отдел & Комплаенс": 1.1,
+      "Маркетинг & PR": 0.9,
+      "Финансы & Бухгалтерия": 1.0,
+      "Клиентская Поддержка": 0.9,
+      "Закупки & Логистика": 1.0,
+      "Администрация": 0.7
+    },
+    "tokenVolume": [
+      { "minTokens": 0, "maxTokens": 10000, "multiplier": 0.5 },
+      { "minTokens": 10000, "maxTokens": 50000, "multiplier": 1.0 },
+      { "minTokens": 50000, "maxTokens": 100000, "multiplier": 1.5 },
+      { "minTokens": 100000, "multiplier": 2.0 }
+    ],
+    "status": {
+      "Success": 1.0,
+      "Warning": 0.5,
+      "Error": 0.1
+    },
+    "tools": {
+      "Jira REST API": 1.3,
+      "Confluence Search API": 1.1,
+      "Outlook Mail API": 1.0,
+      "Slack Webhook": 0.6,
+      "Excel Export Tool": 1.4,
+      "Playwright Generator": 1.2,
+      "Bitrix24 CRM API": 1.3,
+      "PostgreSQL Client": 1.1,
+      "DaData API": 1.0,
+      "Sentry Logs API": 1.2,
+      "GitLab Search": 1.1,
+      "Docx Reader": 0.9,
+      "Legal Risk Analyzer": 1.3,
+      "Zendesk API": 1.0,
+      "Text Summarizer": 1.1,
+      "Markdown Formatter": 0.5,
+      "Prometheus API": 1.2,
+      "HR Knowledge Base": 0.8,
+      "REST API Connector": 1.0,
+      "Data Parser": 0.7
+    }
+  }
+}
